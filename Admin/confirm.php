@@ -1,18 +1,18 @@
 <h3 class="page-header">Konfirmasi Absensi</h3>
+<?php include '../config/koneksi.php';  ?>
 <?php
-  include '../config/koneksi.php'
   $sql = "SELECT*FROM data_absen NATURAL LEFT JOIN bulan NATURAL JOIN hari NATURAL JOIN tanggal NATURAL JOIN detail_user WHERE st_jam_msk='Menunggu' OR st_jam_klr='Menunggu'";
   $query = $conn->query($sql);
   // Notifikasi Absen
-  	if (isset($_GET['ab'])) {
-  		if ($_GET['ab']==1) {
-  			echo "<div class='alert alert-warning'><strong>Absen telah dikonfirmasi.</strong></div>";
-  		} elseif($_GET['ab']==2) {
-  			echo "<div class='alert alert-danger'><strong>Gagal, Silahkan Coba Kembali!</strong></div>";
-  		} elseif($_GET['ab']==3) {
+    if (isset($_GET['ab'])) {
+      if ($_GET['ab']==1) {
+        echo "<div class='alert alert-warning'><strong>Absen telah dikonfirmasi.</strong></div>";
+      } elseif($_GET['ab']==2) {
+        echo "<div class='alert alert-danger'><strong>Gagal, Silahkan Coba Kembali!</strong></div>";
+      } elseif($_GET['ab']==3) {
         echo "<div class='alert alert-warning'><strong>Absen berhasil ditolak.</strong></div>";
       } 
-  	} 
+    } 
 
     if ($query->num_rows!==0) {
           echo "<form method='post' action='./model/proses.php'>";

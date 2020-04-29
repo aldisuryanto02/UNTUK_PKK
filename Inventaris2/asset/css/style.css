@@ -1,0 +1,467 @@
+/* ini css untuk homepage */
+*{
+	margin: 0;
+	padding: 0;
+}
+.home{
+	padding-top: 300px;
+}
+@font-face{
+	font-family: myFirstFont;
+    src : url(../font/Gloss_And_Bloom.ttf);
+}
+.home h1{
+	font-family: myFirstFont;
+	font-size: 60px;
+}
+.home button{
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	transition: 0.6s;
+}
+.home a{
+	color: black;
+	text-decoration: none;
+}
+.home button:hover {
+	background: rgba(0, 0, 0, 1);
+	color: white;
+
+}
+.home a:hover{
+	color: white;
+}
+
+/* ini css untuk login */
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	color: black;
+	padding: 20px;
+	width: 270px;
+	height: 300px;
+	box-shadow: 0 0 10px 5px grey;
+	opacity: 0.8;
+}
+
+.login h2 {
+	text-align: center;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+}
+
+.box-login {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: 2px solid black;
+	padding: 8px 0;
+
+}
+
+.box-login input {
+	width: 100%;
+	margin-top: 10px;
+	padding: 0 10px;
+	background: none;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 18px;
+}
+
+.box-login input::placeholder {
+	color: black;
+}
+
+.btn-login {
+	margin-top: 20px;
+	width: 100%;
+	background: black;
+	padding: 10px;
+	border: 1px solid white;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.login a{
+	margin-left: 160px;
+}
+.btn-login:hover {
+	background: rgba(127 ,127, 127, 1);
+	color: white;
+
+}
+
+.bottom {
+	display: flex;
+	margin-top:15px;
+	margin-left: 50px;
+}
+
+
+.bottom a {
+	color: blue;
+	margin-top: 2px;
+	margin-left: 2px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.bottom a:hover {
+	text-decoration: underline;
+}
+
+/* ini css untuk register*/
+.register {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	color: black;
+	padding: 20px;
+	width: 300px;
+	height: 450px;
+	box-shadow: 0 0 10px 5px grey;
+	opacity: 0.8;
+}
+
+.register h2 {
+	text-align: center;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+}
+
+.box-register {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: 2px solid black;
+	padding: 8px 0;
+
+}
+
+.box-register input {
+	width: 100%;
+	margin-top: 10px;
+	padding: 0 10px;
+	background: none;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 18px;
+}
+
+.box-register input::placeholder {
+	color: black;
+}
+
+.btn-register {
+	margin-top: 20px;
+	width: 100%;
+	background: black;
+	padding: 10px;
+	border: 1px solid white;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.register a{
+	margin-left: 160px;
+}
+.btn-register:hover {
+	background: rgba(127 ,127, 127, 1);
+	color: white;
+
+}
+
+.bottom2 {
+	display: flex;
+	margin-top:15px;
+	margin-left: 50px;
+}
+
+
+.bottom2 a {
+	color: blue;
+	margin-top: 2px;
+	margin-left: 2px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.bottom2 a:hover {
+	text-decoration: underline;
+}
+
+/* css untuk forgot password */
+.forgot{
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	color: black;
+	padding: 20px;
+	width: 270px;
+	height: 200px;
+	box-shadow: 0 0 10px 5px grey;
+	opacity: 0.8;
+}
+.forgot p{
+	margin-top: 30px;
+	font-size: 20px;
+}
+.forgot input{
+	margin-top: 20px;
+	width: 200px;
+	height: 25px;
+}
+.btn-submit{
+	margin-top: 25px;
+	width: 100px;
+	height: 35px;
+	background: black;
+	padding: 5px;
+	border: 1px solid white;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.btn-submit:hover{
+	background: rgba(127 ,127, 127, 1);
+	color: white;
+}
+.btn-submit2{
+	margin-top: 25px;
+	width: 100px;
+	height: 35px;
+	background: black;
+	padding: 5px;
+	border: 1px solid white;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.btn-submit2:hover{
+	background: rgba(127 ,127, 127, 1);
+	color: white;
+}
+
+/* css untuk header admin*/
+
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	position: fixed;
+}
+.header h1{
+	margin-top: 10px;
+	margin-left: 20px;
+	color: white;
+	font-size: 25px;
+	font-family:myFirstFont; 
+}
+
+		 
+.wrapper .badan .sidebar{
+	background-color: grey;
+	color: black;
+	float: left;
+	width: 22%;
+	height: 490px;
+	padding-left: 30px;
+	padding-top: 80px;
+	overflow-x: hidden;
+	margin-top: 70px;
+	position: fixed;
+}
+.sidebar a, .dropdown-btn {
+  	padding: 8px 8px 6px 0px;
+  	text-decoration: none;
+	font-size: 24px;
+	font-family: verdana;
+	color: white;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.sidebar a:hover, .dropdown-btn:hover {
+  	color: #f1f1f1;
+}
+
+/* css content homepage admin*/
+.active {
+	color: white;
+}
+
+.dropdown-container {
+  	display: none;
+  	padding-left: 15px;
+}
+
+.wrapper .badan .content{
+	height: 590px;
+}
+.content h1{
+ 		margin-left: 23%;
+ 		padding-top: 23%;
+ 		font-size: 50px;
+}
+.luar .content{
+ height: 640px;
+}
+
+.content h1{
+	text-align: center;
+	padding-top: 250px;
+}
+
+/*css untuk data barang admin*/
+.content{
+	margin-left: 32%;
+ 	padding-top: 8%;
+ 	height: 531px;
+}
+.content h2{
+	margin-bottom: 50px;
+}
+#popup {
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+.window {
+	width: 385px;
+	height: 490px;
+	left: 10%;
+	top: -10%;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+}
+
+.window h2{
+	margin-top: 20px;
+}
+.close-button {
+	width: 7%;
+	height: 5%;
+	line-height: 23px;
+	background: #000;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+/* Memunculkan Jendela Pop Up*/
+#popup:target {
+	visibility: visible;
+}
+
+.input{
+  		height: 10px;
+  		width: 100%;
+  		margin-top: 5px;
+  		padding: 10px;
+  		margin-bottom: 20px;
+} 
+.kotak{
+  		background : none;
+  		width: 320px;
+  		padding: 20px;
+}
+
+.edit{
+	background-color: black;
+	color: white;
+	width: 70px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+	margin-left: 85%;
+}
+
+#popup2 {
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+.window2 {
+	width: 385px;
+	height: 490px;
+	left: 10%;
+	top: -10%;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+}
+
+.window2 h2{
+	margin-top: 20px;
+}
+.close-button2 {
+	width: 7%;
+	height: 5%;
+	line-height: 23px;
+	background: #000;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+/* Memunculkan Jendela Pop Up*/
+#popup2:target {
+	visibility: visible;
+}

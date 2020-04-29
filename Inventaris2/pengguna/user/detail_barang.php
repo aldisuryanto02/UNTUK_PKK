@@ -1,5 +1,5 @@
 <?php 
-	include("../head_foot/header.php")
+	include("header/header.php")
  ?>
  <style>
  	.luar{
@@ -43,20 +43,19 @@
  </style>
 <div class="luar">
  	<div class="content">
- 		<img src="sarada.jpg">
+ 		<img src="../../asset/img/gambar2.jpg">
  		<div class="ket">
- 			<p>Nama Barang : Obeng</p>
+ 			<p>Nama Barang : laptop</p>
  			<p>Jumlah Barang : 30</p>
  			<p>Kondisi Barang : Baik</p>
- 			<p>Ruang : LAB TKJ</p>
+ 			<p>Ruang : LAB RPL</p>
  		</div>
-  			<button class="btn"><a href="daftar_barang.php">Kembali</a></button>
- 			<button type="submit" class="btn"><a href="pinjam_barang.php">Pinjam</a></button>
+ 			<button class="btn"><a href="daftar_barang.php">Kembali</a></button>
+ 			<button class="btn"><a href="pinjam_barang.php">Pinjam</a></button>
  			<div class="jarak"></div>
-
  	</div>
 </div>
 
 <?php 
-	include("../head_foot/footer.php")
+	include("header/footer.php")
  ?>
